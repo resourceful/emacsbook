@@ -279,7 +279,7 @@ ELISP> (message "hello %s" (if (= 1 2) "hello" "world"))
   (gamegrid-start-timer (or (tetris-get-tick-period)
                             tetris-default-tick-period)
                         'tetris-update-game)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~{.cl}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 위의 코드를 글을 읽듯이 읽어보면, 문장이 길어지고 하고자 하는 일이 무엇인지
 한눈에 파악하기 힘들다. 프로그래머가 \f{let}을 사용하면, `gamegrid-start-timer`의

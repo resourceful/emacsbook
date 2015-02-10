@@ -44,6 +44,7 @@ built-in 함수
     이맥스는 c로 구현된 (기본이 되는) built-in 함수들과 lisp으로 구현된
     라이브러리들로 이루어진다. 위의 message 함수는 또한 editfns.c 파일에서
     구현되어 있기 때문에 built-in 함수라고 칭한다.
+
 &rest
 :   나머지 함수인자를 리스트로 받겠다는 키워드로 c에서 va_args나, python에서
     * 키워드와 같은 기능을 한다. (참고로 "&optional"는 함수인자를 선택적으로

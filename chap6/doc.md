@@ -52,10 +52,13 @@
 
 PROMT
 :    "Find File" 프롬프트
+
 INITIAL-INPUT
 :    현재 디렉토리
+
 COLLECTION
 :    현재 디렉토리에 있는 파일들
+
 HIST
 :    \v{file-name-history} 변수로 사용자가 열어본 파일들을 기록
 
